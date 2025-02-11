@@ -56,33 +56,22 @@ section h1 {
     display: flex;
 }
 
-section .container-img {
+section .container-img   {
     display: flex;
-    gap: 34px;
+    gap: 30px;
     justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
 }
 
-section div.container-img div h2 {
-    display: flex;
-}
-
-section.container-img div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-section.container-img {
-    width: 100%;
-
-}
-
-section .container-img div img {
+section .container-img  img {
     width: 200px;
     height: 200px;
     border-radius: 100%;
-
 }
+
+
 
 /* Qual seu tipo? Fim */
 
@@ -91,14 +80,13 @@ section.Artist {
     display: flex;
     background-color: #1C1C1C;
     color: #E9E9E9;
-  
-
+    align-items: center;
 }
 
 section.Artist img {
-    width: 200%;
-    height: 200%;
-    margin-top: 200px;
+    width: 300%;
+    height: 300%;
+    margin-top: 100px;  
 }
 
 section .content-text h1,
@@ -118,10 +106,14 @@ section .content-text h1 {
 }
 
 section .content-text h2 {
-    width: 70%;
+    width: 80%;
+    text-align: justify;
     font-size: 20px;
-    justify-content: center;
-    margin-bottom: 0px;
+    display: flex; 
+    margin-bottom: 100px;
+    font-family: "Roboto", san-serif;
+    font-weight: 300;
+    
 
 }
 
@@ -130,11 +122,30 @@ section .content-text h2 {
 /* Portifolio Inicio */
 section.portifolio {
     background-color: #363636;
-
+    
+   
 }
 
-section.portifolio h1 {
+section.portifolio div h1{
+   
     color: #fff;
+    
+    
+}
 
-
+section.portifolio .portifolio-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+  
+    
+}
+section.portifolio .portifolio-content img{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    border-radius: 10px;
+   margin-bottom: 10px;
 }
